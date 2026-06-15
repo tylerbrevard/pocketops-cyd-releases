@@ -1,8 +1,8 @@
 {
   "channel": "stable",
   "version": "0.6.4",
-  "notes": "All 50 improvements: NVS presence cache, duration timer, activity tracking, LED pulse on change, WDT feeds in TLS ops, exponential backoff, JWT auto-detect, syncGraph extract, tenant migration fallback, heartbeat dot, RSSI bars, NTP warning, auto-dim, edge-tap page cycling, factory reset long-press, structured boot log, OTA failure NVS log, flash.sh script, second user slot, webhook endpoint, portal APIs",
+  "notes": "All 50 improvements + on-device settings panel; fix: settings no longer blinks (was repainting at 220ms, now on-demand only)",
   "binUrl": "https://github.com/tylerbrevard/pocketops-cyd-releases/releases/download/v0.6.4/firmware-0.6.4.bin",
-  "sha256": "537783b5cdfa17c0b09f4efb46aa42dbb56da4fda4db373e9db88249f281ba29",
+  "sha256": "c2a78acf94302e0fdc6fe07305462c46414678b070f10665de4790abf063774d",
   "rolloutPercent": 100
 }
